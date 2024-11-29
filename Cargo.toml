@@ -1,0 +1,11 @@
+[package]
+name = "img_"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clipboard = "0.5.0"
+image = "0.25.4"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8.19"
+
